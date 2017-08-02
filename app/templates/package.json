@@ -1,0 +1,27 @@
+{
+    "name": "<%=_packageName%>",
+    "version": "<%=_version%>",
+    "description": "A smart ui for react app",
+    "keywords": [
+        "react",
+        "react-smart-ui"
+    ],
+    "engines": {
+        "node": ">=6"
+    },
+    "bugs": {
+        "url": "<%=_repo%>/issues"
+    },
+    "homepage": "<%=_homepage%>",
+    "author": "<%=_author%>",
+    "repository": {
+        "type": "git",
+        "url": "<%=_repo%>.git"
+    },
+    "files": [
+        "lib",
+        "assets/*.css"
+    ],
+    "license": "MIT",
+    "main": "./lib/index"
+}
