@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "strictNullChecks": true,
+        "moduleResolution": "node",
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "target": "es6",
+        "noUnusedParameters": true,
+        "noUnusedLocals": true
+    },
+    "include": [
+        "typings/**/*.d.ts",
+        "packages/src/**/*.tsx?",
+        "packages/demos/**/*.tsx?"
+    ],
+    "exclude": [
+        "node_modules",
+        "packages/__tests__/*.tsx?"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+        "silent": true
+    }
+}
