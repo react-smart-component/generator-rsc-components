@@ -10,9 +10,6 @@
   },
   "author": "HISAME SHIZIMARU",
   "license": "MIT",
-  "files": [
-    "app"
-  ],
   "keywords": [
     "yeoman-generator",
     "web",
